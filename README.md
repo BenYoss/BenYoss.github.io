@@ -1,2 +1,2 @@
-#My Religion and Politics Website
-My website
+# BenYoss.github.io
+My project website
