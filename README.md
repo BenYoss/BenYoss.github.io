@@ -1,32 +1,118 @@
-# BenYoss.github.io
-My Religion and Politics Website
 <!DOCTYPE html>
+<header>
+<center>
+<h1>Benjamin Yoss</h1>
+</center>
+</header>
+<meta charset="UTF-8">
+<center>Student At Mandeville High</center>
 <html>
     <head>
         <title>Religion and Politics Website</title>
+        <style>
+            body {
+                background: rgb(159, 224, 159);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.6em;
+                font-weight: bold;
+            }
+            all-contents {
+                max-width: 250px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(193, 193, 62);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #ff5;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 50px;
+                padding: 30px;
+            }
+            .sidebar img {
+                width: 250px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
     </head>
     
     <body>
         <div id="all-contents"> 
             <nav>
+                 <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                 </ul>
             </nav>
             
             <main>
                 <div class="sidebar">
-                    <img src="">
+                    <center>
+                    <img src="http://images.dailykos.com/images/343817/story_image/Trump_Jesus.jpg?1482897139">
+                    </center>
                 </div>
     
                 <div class="content">
-                 <section class="interests">
+                 <aside class="interests">
                         <header>Interests</header>
+                     
                         <ul>
-                            <li>Thing 1</li>
-                            <li>Thing 2</li>
-                            <li>Thing 3</li>
+                            <li>Cooking</li>
+                            <li>Art/Graphics Design</li>
+                            <li>Animation</li></li>
+                            <li>Politics</li>
                         </ul>
-                    </section>
+                    </aside>
                 </div>
             </main>
         </div>
     </body>
+    <div>
+        <nav>
+            <div class="extra">
+             <aside class="informational">
+                 <header>Additional Observation</header>
+                 <ul>
+                     <p>There isn't any additional information.</p>
+                 </ul>
+             </aside>
+            </div>
+        </nav>
+</div>
 </html>
